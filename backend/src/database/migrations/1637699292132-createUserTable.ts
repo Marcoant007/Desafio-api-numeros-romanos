@@ -7,6 +7,7 @@ export class createUserTable1637699292132 implements MigrationInterface {
             CREATE TABLE public.user (
                 id serial,
                 name varchar(100),
+                email varchar(100),
                 password varchar(100)
             )
         `)
@@ -14,7 +15,7 @@ export class createUserTable1637699292132 implements MigrationInterface {
 
     public async down(queryRunner: QueryRunner): Promise<void> {
         await queryRunner.query(`
-        DROP TABLE user`)
+        DROP TABLE public.user`)
     }
 
 }
