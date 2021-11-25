@@ -7,18 +7,32 @@ interface IPayload {
     sub: string;
 }
 
+
+
 const routes = Router();
 
+const listNumbersRomans= {
+    M: 1000,
+    D: 500,
+    C: 100,
+    L: 50,
+    X: 10,
+    V: 5,
+    I: 1
+  }
+
 routes.post("/soma", ensureAuthenticated,  (request, response) => {
-    return response.status(200).json("CHORA AGORA")
+    const {body} = request.body;
+    console.log(body)
+    return response.status(200).json("Teste Rota autenticada")
 })
 
 
 routes.post("/subtracao", ensureAuthenticated,  (request, response) => {
-    return response.status(200).json("CHORA AGORA")
+    return response.status(200).json("Teste Rota autenticada")
 })
 
-routes.post("/user", async(request, response)=> {
+routes.post("/usuario", async(request, response)=> {
     try {
         const {name, email , password} = request.body;
         const userService = new CreateUserService();

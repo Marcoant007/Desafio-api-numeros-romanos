@@ -33,6 +33,32 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
     $ npm run dev
 ```
 
+ 🗂 Como testar o projeto
+
+```bash
+
+    - Entre na primeira rota de criar usuário e crie um usuário;
+
+    Rota para criar usuário: localhost://3000/usuario;
+    
+    Rota para logar usuário: localhost://3000/login;
+
+
+    - Após criar pegue seu token 
+
+    # Entrar no diretório
+    $ cd rocketmusic
+
+    # Instalar as dependências
+    $ npm install
+
+    # Iniciar o docker-compose (inicia o banco de dados)
+    $ docker-compose up --build 
+
+    # Iniciar o projeto
+    $ npm run dev
+```
+
 ---
 
 Desenvolvido 💜 por Marco Antônio
