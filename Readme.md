@@ -47,7 +47,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
     - Após criar pegue seu token 
 
     # Entrar no diretório
-    $ cd rocketmusic
+    $ cd backend
 
     # Instalar as dependências
     $ npm install
@@ -61,4 +61,4 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 ---
 
-Desenvolvido 💜 por Marco Antônio
+Desenvolvido por Marco Antônio
