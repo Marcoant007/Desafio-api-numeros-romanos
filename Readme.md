@@ -39,22 +39,10 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
     - Entre na primeira rota de criar usuário e crie um usuário;
 
-    Rota para criar usuário: localhost:3000/usuario
+        Rota para criar usuário: localhost:3000/usuario
     
-    Rota para logar usuário: localhost:3000/login
+        Rota para logar usuário: localhost:3000/login
     
-
-    # Entrar no diretório
-    $ cd backend
-
-    # Instalar as dependências
-    $ npm install
-
-    # Iniciar o docker-compose (inicia o banco de dados)
-    $ docker-compose up --build 
-
-    # Iniciar o projeto
-    $ npm run dev
 ```
 
 ---
